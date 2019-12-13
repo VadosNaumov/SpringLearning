@@ -1,8 +1,13 @@
 package org.springcourse;
 
+import java.util.List;
+
 /**
  * @author Vadim Naumov
  */
 public interface Music {
-    String getSong();
+
+    List getSong();
+
+    void addSong();
 }
