@@ -1,5 +1,6 @@
-package org.springcourse;
+package org.springcourse.genres;
 
+import org.springcourse.Music;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
@@ -10,8 +11,6 @@ import java.util.List;
 /**
  * @author Vadim Naumov
  */
-@Component
-//@Scope("prototype")
 public class ClassicalMusic implements Music {
 
     @PostConstruct

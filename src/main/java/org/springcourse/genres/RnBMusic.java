@@ -1,6 +1,6 @@
-package org.springcourse;
+package org.springcourse.genres;
 
-import org.springframework.stereotype.Component;
+import org.springcourse.Music;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,8 +8,7 @@ import java.util.List;
 /**
  * @author Vadim Naumov
  */
-@Component
-public class RnBMusic implements Music  {
+public class RnBMusic implements Music {
 
     private List<String> rnbSongs = new ArrayList<>();
 
